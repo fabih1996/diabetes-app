@@ -52,5 +52,6 @@ def calcola_prob(dati):
 def test():
 	dati=insert_data()
 	calcola_prob(dati)
-
+	
+st.write('Calcola la probabilità di avere il diabete con un algoritmo di machine learning sviluppato da FC')
 test()
